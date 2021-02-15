@@ -22,8 +22,10 @@ In this work, we propose **SOFIA**, an online algorithm for factorizing real-wor
 
 ## Running Examples
 We provide two running example codes for online tensor completion and forecasting, respectively.
-1. Online tensor completion example: Run [sofia_completion_example.m]().
-2. Tensor forecasting example: Run [sofia_forecast_example.m]().
+1. Online tensor completion
+      * Run [sofia_completion_example.m]().
+2. Tensor forecasting
+      * Run [sofia_forecast_example.m]().
 
 ## Reference
 This code is free and open source for only academic/research purposes (non-commercial).
