@@ -1,2 +1,2 @@
-# sofia
-Robust Factorization of Real-world Tensor Streams with Patterns, Missing Values, and Outliers (ICDE'21)
+# Robust Factorization of Real-world Tensor Streams with Patterns, Missing Values, and Outliers (ICDE'21)
+This repository contains the source code for the paper [Robust Factorization of Real-world Tensor Streams with Patterns, Missing Values, and Outliers][https://google.co.kr], by [Dongjin Lee][https://github.com/wooner49] and [Kijung Shin][https://kijungs.github.io/], presented at [ICDE 2021][https://icde2021.gr/].
