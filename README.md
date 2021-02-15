@@ -9,10 +9,10 @@ In this work, we propose **SOFIA**, an online algorithm for factorizing real-wor
 ## Datasets
 | Name              | Description                   | Size            | Granularity in Time | Processed Dataset | Original Source   |
 | ----------------- |:-----------------------------:| :--------------:| :------------------:| :---------------: |:-----------------:|
-| Intel Lab Sensor  | locations x sensor x time     | 54 x 4 x 1152   | every 10 minutes    | [Dataset]()   | [Link](http://db.csail.mit.edu/labdata/labdata.html) |
-| Network Traffic   | sources x destinations x time | 23 x 23 x 2000  | hourly              | [Dataset]()   | [Link](https://www.cs.utexas.edu/~yzhang/research/AbileneTM/) |
-| Chicago Taxi      | sources x destinations x time | 77 x 77 x 2016  | hourly              | [Dataset]()   | [Link](https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew) |
-| NYC Taxi          | sources x destinations x time | 265 x 265 x 904 | daily               | [Dataset]()   | [Link](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) |
+| Intel Lab Sensor  | locations x sensor x time     | 54 x 4 x 1152   | every 10 minutes    | [Dataset](https://github.com/wooner49/sofia/tree/main/data)   | [Link](http://db.csail.mit.edu/labdata/labdata.html) |
+| Network Traffic   | sources x destinations x time | 23 x 23 x 2000  | hourly              | [Dataset](https://github.com/wooner49/sofia/tree/main/data)   | [Link](https://www.cs.utexas.edu/~yzhang/research/AbileneTM/) |
+| Chicago Taxi      | sources x destinations x time | 77 x 77 x 2016  | hourly              | [Dataset](https://github.com/wooner49/sofia/tree/main/data)   | [Link](https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew) |
+| NYC Taxi          | sources x destinations x time | 265 x 265 x 904 | daily               | [Dataset](https://github.com/wooner49/sofia/tree/main/data)   | [Link](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) |
 
 ## Requirements
 1. [Tensor Toolbox v3.1](https://gitlab.com/tensors/tensor_toolbox/-/releases/v3.1) for tensor computation.
@@ -23,9 +23,9 @@ In this work, we propose **SOFIA**, an online algorithm for factorizing real-wor
 ## Running Examples
 We provide two running example codes for online tensor completion and forecasting, respectively.
 1. Online tensor completion
-      * Run [sofia_completion_example.m]().
+      * Run [sofia_completion_example.m](https://github.com/wooner49/sofia/blob/main/sofia_completion_example.m).
 2. Tensor forecasting
-      * Run [sofia_forecast_example.m]().
+      * Run [sofia_forecast_example.m](https://github.com/wooner49/sofia/blob/main/sofia_forecast_example.m).
 
 ## Reference
 This code is free and open source for only academic/research purposes (non-commercial).
