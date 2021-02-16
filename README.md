@@ -27,6 +27,9 @@ We provide two running example codes for online tensor completion and forecastin
 2. Tensor forecasting
       * Run [sofia_forecast_example.m](https://github.com/wooner49/sofia/blob/main/sofia_forecast_example.m).
 
+## Supplementary Document
+Please see [supplementary](https://github.com/wooner49/sofia/blob/main/doc/supplementary.pdf)
+
 ## Reference
 This code is free and open source for only academic/research purposes (non-commercial).
 If you use this code as part of any published research, please acknowledge the following paper.
