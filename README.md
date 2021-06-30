@@ -34,11 +34,13 @@ Please see [supplementary](https://github.com/wooner49/sofia/blob/main/doc/suppl
 This code is free and open source for only academic/research purposes (non-commercial).
 If you use this code as part of any published research, please acknowledge the following paper.
 ```
-@article{lee2021robust,
-  title={Robust Factorization of Real-world Tensor Streams with Patterns, Missing Values, and Outliers},
+@inproceedings{lee2021robust,
+  title={Robust factorization of real-world tensor streams with patterns, missing values, and outliers},
   author={Lee, Dongjin and Shin, Kijung},
-  journal={arXiv preprint arXiv:2102.08466},
-  year={2021}
+  booktitle={2021 IEEE 37th International Conference on Data Engineering (ICDE)},
+  pages={840--851},
+  year={2021},
+  organization={IEEE}
 }
 ```
 
